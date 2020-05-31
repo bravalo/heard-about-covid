@@ -1,0 +1,165 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Shadows Into Light',cursive;
+    color:#2b2b2b;
+    background-color: lightgreen;
+    }
+    #one, #about, #contact {
+        height: 600px;
+    }
+    /***** GRID *****/
+    .full-width {
+        width: 1200px;
+        margin: 0 auto;
+    }
+     .half-width {
+        width: 600px;
+        margin: 0 auto;
+        float: left;
+    }
+    .third-width {
+        width: 400px;
+        margin: 0 auto;
+        float: left;
+    }
+    /***** HEADER CSS CODE *****/
+    header {
+        width: 1200px;
+        margin: 0 auto;
+        height: 280px;
+        background-image: linear-gradient(blue, purple);
+        background-size: cover;
+        background-position: center;
+    }
+    header h1 {
+        width: 1200px;
+        padding: 65px 0 0 25px;
+        margin: 0  auto;
+        line-height: 80px;
+        font-size: 80px;
+        font-weight: bold;
+        color: #ffa31a;
+    }
+    header h3 {
+        width: 1200px;
+        margin: 0  auto;
+        padding: 0 0 0 25px;
+        font-size: 50px;
+        color: yellow;
+    }
+/*****SECTION ONE CSS CODE*****/
+#one .full-width {
+    background-size: cover;
+    background-position: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width-one-text h4 {
+    font-size: 75px;
+    color: yellow;
+    padding-left: 65px;
+    font-weight: bold;
+    position: absolute;
+    top: 200px;
+    right: 125px;
+}
+.half-width-one-text p {
+    font-size: 50px;
+    text-align: right;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 400px;
+    right: 125px;
+    width: 600px;
+    }
+/*****SECTION TWO CSS CODE*****/
+#two .full-width {
+    background-image: linear-gradient(green,blue);
+    background-size: cover;
+    background-position: center;
+    height: 1074px;
+    width: 1200px;
+    margin: 0 auto;
+}
+ .half-width-two-text h4 {
+    font-size: 40px;
+    text-align: right;
+    color: rgb(3, 46, 16);
+    font-weight: bold;
+    margin-right: 180px;
+    width: 600px;
+}
+#two img#athome-img {
+    float: right;
+    border: 12px rgb(0, 128, 28);
+    border-style: groove;
+    border-radius: 8px;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 150px;
+    width: 350px;
+}
+#two img#lather-img {
+    border: 12px blue;
+    border-style: groove;
+    border-radius: 8px;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 180px;
+    clear: both;
+} 
+.half-width-two h4 {
+    font-size: 35px;
+    text-align: right;
+    color: rgb(146, 196, 236);
+    padding-left: 65px;
+    font-weight: bold;
+    margin-top: 300px;
+    margin-right: 125px;
+}
+.half-width-two p {
+    font-size: 28px;
+    color: yellowgreen;
+    padding-left: 65px;
+    float: right;
+    top: 50px;
+    margin-right: 125px;
+}
+/*****SECTION THREE CSS CODE*****/
+.full-width-three {
+    width: 1200px;
+    margin:0 auto;
+
+}
+.third-width-three {
+    width: 644px;
+    margin:0 auto;
+    float: left;
+}
+.third-width-three-center h1 {
+    color:rgb(5, 92, 5);
+    width: 138px;
+    text-align: center;
+    padding-top: 58px;
+    padding-left: 55px;
+    float: left;
+}
+.third-width-three-right {
+    width: 243px;
+    margin:0 auto;
+    float: right;
+}
+/*****ABOUT-CONTACT CSS CODE*****/
+#about-contact {
+    font-family:'Varela Round', sans-serif;
+    text-align: center;
+}
+#about-contact img#bethel-img {
+    border: 12px palevioletred;
+    border-style: groove;
+}    
+#about-contact img#jubilee-img {
+    width: 350px;
+}
